@@ -1,0 +1,14 @@
+.logo {
+  position: fixed;
+  left: 40px;
+  top: 50px;
+  width: 125px;
+  height: 100px;
+  pointer-events: none;
+  z-index: 99;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
