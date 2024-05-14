@@ -50,11 +50,26 @@
   color: #fff;
   text-shadow: 4px -2px 0 #015ed7;
   margin-bottom: 25px;
+  user-select: none;
+}
+
+.searchBoxContainer {
+  position: relative;
+  width: 78%;
+}
+
+.icon {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  user-select: none;
 }
 
 .searchBox {
-  width: 78%;
-  padding: 10px 30px;
+  width: 100%;
+  padding: 10px 30px 10px 60px;
   border-radius: 500px;
   border: 2px solid #015ed7;
   outline: none;
@@ -66,4 +81,13 @@
 
 .searchBox::placeholder {
   color: #3a3a3a;
+}
+
+.loader {
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  user-select: none;
 }

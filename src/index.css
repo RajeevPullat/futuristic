@@ -4,9 +4,20 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #000;
+  overflow: hidden;
+}
+
 .orbitron-500 {
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }

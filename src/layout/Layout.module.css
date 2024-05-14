@@ -4,11 +4,14 @@
   top: 50px;
   width: 125px;
   height: 100px;
-  pointer-events: none;
-  z-index: 99;
+  cursor: pointer;
+  user-select: none;
+  z-index: 999;
 }
 
 .logo img {
   width: 100%;
   height: auto;
+  cursor: pointer;
+  user-select: none;
 }

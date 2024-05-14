@@ -1,0 +1,67 @@
+.categoryContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #1b2c6d;
+  background-image: url("../../assets/questions-bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px;
+  background-color: rgb(0 0 0 / 45%);
+  backdrop-filter: blur(4px);
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border: 1px solid #23acca63;
+}
+
+.title {
+  font-size: 4rem;
+  color: #fff;
+  text-shadow: 4px -2px 0 #015ed7;
+  margin-bottom: 40px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonGroup {
+  display: inline-flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 0 auto;
+  background-color: #23acca63;
+  margin-bottom: 40px;
+}
+
+.particles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.particles canvas {
+  position: absolute !important;
+  width: 100%;
+  height: 100%;
+}
