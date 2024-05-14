@@ -17,7 +17,7 @@ const pageTransition = {
     x: "100%",
     opacity: 0,
     transition: {
-      duration: 0.3,
+      duration: 0.5,
     },
   },
 };
@@ -46,8 +46,8 @@ function Layout() {
           key={pathname}
           transition={{
             type: "spring",
-            stiffness: 85,
-            damping: 10,
+            stiffness: 35,
+            damping: 8,
           }}
         >
           <AnimatedOutlet />
